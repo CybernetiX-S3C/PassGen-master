@@ -17,7 +17,7 @@ class Update(object):
   self.vers = __version__
   self.html = None # src code
   self.file = '.code.txt' # hidden file for reading for updates
-  self.code = 'https://github.com/CybernetiX-S3C/PassGen'
+  self.code = 'https://github.com/CybernetiX-S3C/PassGen-master'
 
  def check(self):
   print 'Checking for an update ...'
