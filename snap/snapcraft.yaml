@@ -1,0 +1,15 @@
+
+  name: passgen
+  version: '0.7'
+  summary: Basic tool to generate passwords using the basic methods of social engineering.
+  description: |
+    Basic tool to generate passwords using the basic methods of social engineering. Enter the info needed, and generate a txt list.
+
+  grade: stable
+  confinement: strict
+
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
